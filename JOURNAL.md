@@ -25,3 +25,15 @@ Here's the stuff I think I'll need for the calculator:
 
   
 
+## 10/15/2025 - Designing the keyboard & suffering with PCBs  
+
+First, I followed along with the Hackpad tutorial to learn how to make a keyboard in KiCAD. Then, I realised the keys with that would be way too big for a calculator keypad so I started over. I discovered the Tanmatsu project already had a keyboard that could be easily modified to suit my needs, so I modified that into something that'd work. Then I realised I had COMPLETELY no idea what I was doing and started over following a tutorial from YouTube while using my KiCAD disaster as a reference. I also switched from KiCAD to EasyEDA because KiCAD just didn't click with me (KiCAD is the LMMS of PCB design, and I'm more of an Audiotool guy). Then I realised the tutorial sucked so I switched to a better one. After that I designed the schematic & PCB in a way that'll probably work. 
+
+KiCAD abomination: ![Screenshot 2025-10-14 at 22-15-37 gtkprintUPI8D3.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjI3MywicHVyIjoiYmxvYl9pZCJ9fQ==--09511d0652cc86209d219b0ff72ae2d88d888766/Screenshot%202025-10-14%20at%2022-15-37%20gtkprintUPI8D3.png)
+
+EasyEDA schematic (sorry abt the quality): ![Screenshot from 2025-10-15 17-39-36.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMSwicHVyIjoiYmxvYl9pZCJ9fQ==--27c00b3b7539306da119158074c13f3c2101d3a5/Screenshot%20from%202025-10-15%2017-39-36.png)
+
+
+PCB design:![Screenshot from 2025-10-15 17-40-00.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--55bbf384f335dbf03967064028b16d28508aefe8/Screenshot%20from%202025-10-15%2017-40-00.png)
+  
+
