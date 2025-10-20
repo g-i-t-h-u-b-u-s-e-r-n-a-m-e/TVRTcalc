@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **TVRTcalc**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/146).
-
-
 ## 10/4/2025 - Planning/research for parts  
 
 Here's the stuff I think I'll need for the calculator:
@@ -35,5 +31,12 @@ EasyEDA schematic (sorry abt the quality): ![Screenshot from 2025-10-15 17-39-36
 
 
 PCB design:![Screenshot from 2025-10-15 17-40-00.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjQwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--55bbf384f335dbf03967064028b16d28508aefe8/Screenshot%20from%202025-10-15%2017-40-00.png)
+  
+
+## 10/20/2025 - Getting more specific with parts  
+
+So I knew I wanted this calculator to be powered by a MediaTek MT6580, but the easiest way to do that is with a predesigned board some Chinese OEM is already making. That was what I was looking at earlier, but for the keyboard and charging to work like I wanted, I'd need one with 2 USB ports, which that one didn't have. I recalled there was one shown in a welcome phone in an old SMOOREZ video, but after a lot of googling, I couldn't find it for sale anywhere. After a bit more research (aka watching lots of videos that might have some useful info), I realised the phone with 2 USB ports was probably a very old one that wouldn't do everything I wanted. I've decided that the best thing to do from here would probably be redesigning the keeb to have a passthrough for charging the phone like a Clicks keyboard and using the board from a Moxee MH-T6000, as it's too unbranded to be that hard to modify probably (I give you all permission to bully me for this if I'm wrong). I'll probably also redesign the keyboards to be swappable and also make another keyboard design for left handed people because I'm slighly more ambidextrous than I am concerned about my mental well-being.
+
+Image of the phone I'll be parting out: ![image_proxy.jpeg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0MiwicHVyIjoiYmxvYl9pZCJ9fQ==--00e374956f6a7da1d26fc090ad3b433e5ac9ce9c/image_proxy.jpeg)
   
 
